@@ -68,8 +68,8 @@ do {
       }
       break;
     case 6:
-      books.sort((a,b) => a.id - b.id);
-      console.log(` danh sách sau khi sắp xếp `);
+      books.sort((a,b) => a.price - b.price);
+      console.log(` danh sách sau khi sắp xếp bằng giá `);
       console.table(books);
       
       break;
